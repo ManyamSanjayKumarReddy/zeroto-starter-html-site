@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My first site on ZeroTo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Hello from my first deployment 👋</h1>
+      <p>This page is served from a real server, with a real address and HTTPS.</p>
+      <p class="hint">Change this text, commit, push — then press <strong>Redeploy</strong> in ZeroTo and refresh.</p>
+      <p id="when"></p>
+    </main>
+    <script>
+      document.getElementById("when").textContent = "Page loaded at " + new Date().toLocaleString()
+    </script>
+  </body>
+</html>
